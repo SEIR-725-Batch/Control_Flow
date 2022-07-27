@@ -285,7 +285,7 @@ function prompt1() {
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  prompt12();
+  //prompt12();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 12"
   
@@ -300,13 +300,25 @@ function prompt1() {
     ["d", "e", "f"],
     ["g", "h", "i"],
   ];
-  
+
   function prompt13() {
-    // YOUR CODE HERE
+    for (let i=0; i<nestedArrays[0].length; i++) {
+        console.log(nestedArrays[0][i]);
+        if (i>=2) {
+            for (let j=0; j<nestedArrays[1].length; j++) {
+                console.log(nestedArrays[1][j]);        
+                if (j>=2) {
+                    for (let k=0; k<nestedArrays[2].length; k++) {
+                        console.log(nestedArrays[2][k]);
+                    }
+            }
+            }
+    }
+    }
   }
-  
+
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  // prompt13();
+  prompt13();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 13"
   
