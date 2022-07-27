@@ -109,7 +109,7 @@ function prompt1() {
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  prompt6()
+  //prompt6()
   
   // 🌟 MAKE A COMMIT: "Complete prompt 6"
   
@@ -124,11 +124,17 @@ function prompt1() {
    *   - I found a 10. High five!
    */
   function prompt7() {
-    // YOUR CODE HERE
+    for(i=0; i<=100; i++){
+        if(i%5===0){
+            console.log(`I found a ${i}. High five!`);
+        } else {
+            console.log(i);
+        }
+    }
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  // prompt7()
+  prompt7()
   
   // 🌟 MAKE A COMMIT: "Complete prompt 7"
   
