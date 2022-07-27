@@ -134,7 +134,7 @@ function prompt1() {
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  prompt7()
+  //prompt7()
   
   // 🌟 MAKE A COMMIT: "Complete prompt 7"
   
@@ -151,17 +151,21 @@ function prompt1() {
    */
   
   //  define someNumber here
-  var someNumber;
-  
+  let someNumber = Math.floor(Math.random() * 100);
   function prompt8() {
     // print someNumber to the console in your function so you can see its value
     console.log(someNumber);
-  
-    // YOUR CODE HERE
+    if(someNumber<30){
+        console.log("That's a small number!");
+    } else if (someNumber>30 && someNumber<60) {
+        console.log ("That number is medium sized.")
+    } else {
+        console.log("we got a big one!");
+    }
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  // prompt8();
+  prompt8();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 8"
   
