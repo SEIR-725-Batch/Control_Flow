@@ -165,7 +165,7 @@ function prompt1() {
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  prompt8();
+  //prompt8();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 8"
   
@@ -183,11 +183,13 @@ function prompt1() {
   const starWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];
   
   function prompt9() {
-    // YOUR CODE HERE
+    for (let i = 0; i < starWars.length; i++) {
+        console.log(starWars[i])  
+    }
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  // prompt9();
+  prompt9();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 9"
   
