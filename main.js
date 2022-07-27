@@ -212,7 +212,7 @@ function prompt1() {
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  console.log(prompt10());
+  //console.log(prompt10());
   
   // 🌟 MAKE A COMMIT: "Complete prompt 10"
   
@@ -254,13 +254,12 @@ function prompt1() {
   ];
   
   function prompt11() {
-    let median;
-    // YOUR CODE HERE
-  
+    let med = (nums.length/2)
+    let median = nums[Math.floor(med)]
     console.log(median);
   }
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  // prompt11();
+  prompt11();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 11"
   
