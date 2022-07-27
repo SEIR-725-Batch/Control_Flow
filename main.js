@@ -252,14 +252,14 @@ function prompt1() {
     15,
     12,
   ];
-  
+
   function prompt11() {
     let med = (nums.length/2)
     let median = nums[Math.floor(med)]
     console.log(median);
   }
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  prompt11();
+  //prompt11();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 11"
   
@@ -277,11 +277,15 @@ function prompt1() {
    */
   
   function prompt12() {
-    // YOUR CODE HERE
+    for(let i=1; i<=10; i++){
+        for(let j=11; j<=20; j++){
+            console.log(`i: ${i} / j: ${j}`);
+        }
+    }
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  // prompt12();
+  prompt12();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 12"
   
