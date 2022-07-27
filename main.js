@@ -189,7 +189,7 @@ function prompt1() {
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  prompt9();
+  //prompt9();
   
   // 🌟 MAKE A COMMIT: "Complete prompt 9"
   
@@ -202,14 +202,17 @@ function prompt1() {
   function prompt10() {
     const myArray = [];
     // YOUR CODE HERE
-  
+    for(i=0; i<=100; i++) {
+        myArray.push(i);
+    }
+
     // don't forget to return the array after pushing the numbers into it so you can see it in the browser!
     // return the array
     return myArray;
   }
   
   // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
-  // console.log(prompt10());
+  console.log(prompt10());
   
   // 🌟 MAKE A COMMIT: "Complete prompt 10"
   
