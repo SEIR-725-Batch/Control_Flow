@@ -18,8 +18,7 @@ better you'll get.
 1.  Change into the new directory.
 1.  Fulfill the listed requirements.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js). ***You are
-NOT required to turn in your submission.***
+Starter code is available in [`lib/challenge.js`](lib/challenge.js). 
 
 **Make a commit after each prompt.**
 
